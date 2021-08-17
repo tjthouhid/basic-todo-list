@@ -1,0 +1,29 @@
+.list-container{background-color: #272727;margin: 0px auto;max-width: 1200px;width: 100%;padding: 20px 0px 40px;}
+.list-container h2{text-align: center;color: #fff;text-decoration: underline;font-size: 32px;}
+
+.list-form{width: 400px;font-family: Georgia, Times, serif;margin: 0px auto;}
+.list-form form{padding-left: 40px;}
+.list-form form input[type='text']{width: 70%;height: 19px;border: 0px;border-radius: 3px;padding: 5px 15px;}
+.list-form form button{width: 72px;padding: 8px;border: 0px;border-radius: 2px;}
+.list-form form button:hover{color:#FFFFFF; background-image:url(../img/hover.png); background-repeat:repeat-x; }
+/* LIST #4 */
+#list4 { width:400px; font-family:Georgia, Times, serif; font-size:15px;margin: 0px auto; }
+#list4 ul { list-style: none; }
+#list4 ul li { display:block;  background-color:#FFFFFF; line-height:30px;
+  border-bottom-style:solid; border-bottom-width:1px; border-bottom-color:#CCCCCC; cursor:pointer;  }
+#list4 ul li::after{content:"";display: block;width: 100%;clear: both;}
+#list4 ul li a{text-decoration:none; color:#000000;float: left;width: 90%;padding-left:10px;}
+#list4 ul li a.delete-list{float: right;width: 7%;padding-left: 0px;text-align: center;}
+#list4 ul li:hover { color:#FFFFFF; background-image:url(../img/hover.png); background-repeat:repeat-x; }
+#list4 ul li:hover a{color:#FFFFFF;}
+#list4 ul li a.delete-list:hover{color: red;}
+#list4 ul li a strong { margin-right:10px; }
+
+.clear-all{background-color : #fff;color: #000;text-decoration: none;padding: 10px 10px;display: block;width: 160px;text-align: center;margin: 15px auto 5px;border-radius: 2px;}
+.clear-all:hover{background-color : #008ffb; color: #fff; }
+
+.notifcation{position: fixed;top:8px;right:30px;z-index: 999;background: #c75656;color: #fff;padding: 6px 20px;border-radius: 3px;display: none;}
+.notifcation .close-notification{position: absolute;right: 2px;color: #5a5959;text-decoration: none;font-size: 18px;top: -5px;}
+.notifcation .close-notification:hover{color: #b50a0a;}
+.notifcation.success{background: #2ec13d;color: #fff;}
+.notifcation.error{background: #bf2f13;color: #fff;}
